@@ -1,0 +1,64 @@
+# map
+map:
+  all_users:
+    - dperny
+    - ameyag
+    - ry4nz
+    - emreboga
+    - vikramhh
+    - rachaelbrownie
+    - byDimasik
+    - evol262
+    - ranyodh
+    - nsteph
+    - trapier
+    - cognomaton
+    - squizzi
+    - corhere
+    - slysunkin
+    - wahabmk
+    - gunbladesniper
+    - gcameron1962
+    - cgirard-mir
+    - cranzy
+    - quadespresso
+    - ekitagawa
+    - james-nesbitt
+    - pgedara
+    - richard-barrett
+    - briantd
+    - MirantisJustinC
+  engine_users:
+    - dperny
+    - ameyag
+  mke_users:
+    - ry4nz
+    - emreboga
+    - vikramhh
+    - rachaelbrownie
+    - byDimasik
+    - evol262
+    - ranyodh
+    - nsteph
+    - trapier
+    - cognomaton
+  msr_users: 
+    - squizzi
+    - corhere
+    - slysunkin
+    - wahabmk
+    - gunbladesniper
+    - gcameron1962
+    - cgirard-mir
+  prod_eng_users: 
+    - cranzy
+    - quadespresso
+    - ekitagawa
+    - james-nesbitt
+    - pgedara
+  data_users:
+    - richard-barrett
+    - briantd
+    - MirantisJustinC
+  
+

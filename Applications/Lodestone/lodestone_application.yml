@@ -1,0 +1,22 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: "2021-06-24T18:18:07Z"
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:phase: {}
+    manager: kubectl-create
+    operation: Update
+    time: "2021-06-24T18:18:07Z"
+  name: lodestone
+  resourceVersion: "115967244"
+  uid: 60a6bb0e-91c8-4323-8e18-30db2da5f5c5
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active
