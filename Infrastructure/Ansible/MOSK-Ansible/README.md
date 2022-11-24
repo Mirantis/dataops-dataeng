@@ -1,1 +1,0 @@
-# MOSK-Ansible
