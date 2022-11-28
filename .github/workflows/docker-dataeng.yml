@@ -3,12 +3,12 @@ name: Docker Dataeng
 # Run workflow on tags starting with v (eg. v2, v1.2.0)
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
     paths:
       - ./Dockerfile
       - ./dataengctl/*
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   Deploy:
@@ -30,6 +30,8 @@ jobs:
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v3
         with:
+          context: .
+          file: ./Dockerfile
           push: true # Will only build if this is not here
           tags: |
             ghcr.io/mirantis/dataeng:latest
