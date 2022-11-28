@@ -5,7 +5,7 @@ on:
   push:
     branches: [ "master" ]
     paths:
-      - Dockerfile
+      - ./Dockerfile
       - ./dataengctl/*
   pull_request:
     branches: [ "master" ]
@@ -30,8 +30,6 @@ jobs:
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v3
         with:
-          context: .
-          file: Dockerfile
           push: true # Will only build if this is not here
           tags: |
             ghcr.io/mirantis/dataeng:latest
