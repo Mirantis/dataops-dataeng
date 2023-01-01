@@ -10,6 +10,6 @@ jobs:
       - name: 'Checkout'
         uses: actions/checkout@v3
       - name: 'Tag'
-        uses: anothrNick/github-tag-action@1.52.0
+        uses: anothrNick/github-tag-action@1.55.0
         env:
           GITHUB_TOKEN: ${{ secrets.AUTOMATION_PAT }}
