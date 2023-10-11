@@ -11,8 +11,8 @@ require (
 	github.com/simpleforce/simpleforce v0.0.0-20210518005708-245ee39ac3ec
 	github.com/spf13/cobra v1.2.1
 	github.com/stretchr/testify v1.7.0
-	golang.org/x/net v0.7.0
-	golang.org/x/term v0.5.0
+	golang.org/x/net v0.17.0
+	golang.org/x/term v0.13.0
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 	gopkg.in/yaml.v2 v2.4.0
 )
